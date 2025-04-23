@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Car Sales Site</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="title">
+                    <h1>Available Cars</h1>
+                    <p>There are 15 cars that match your criteria</p>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search">
+                    <img src="assets/search.svg" class="search-icon" alt="Search icon">
+                    <img id="menu" class="menu" src="assets/menu.svg" alt="Menu icon">
+                    <div id="modal" class="modal">
+                        <div class="check-item">
+                            <input type="checkbox" id="new" name="new" value="New cars">
+                            <label for="new">New cars</label>
+                        </div>
+                        <div class="check-item">
+                            <input type="checkbox" id="used" name="used" value="Used cars">
+                            <label for="used">Used cars</label>
+                        </div>
+                        <div class="check-item">
+                            <input type="checkbox" id="dealer" name="dealer" value="Dealership">
+                            <label for="dealer">Dealership</label>
+                        </div>
+                        <div class="check-item">
+                            <input type="checkbox" id="sale" name="sale" value="For sale by owner">
+                            <label for="sale">For sale by owner</label>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="contents">
+                    <div class="item">
+                        <p>Car details</p>
+                        <p>Location</p>
+                        <p>Price</p>
+                        <p>Action</p>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="details">2017 Toyota Highlander V4</a>
+                        <p class="location">
+                            <span>1944 Scrimba Ln</span> 
+                            <span>Youngstown, OH 44481</span>
+                        </p>
+                        <div class="item-footer">
+                            <p class="price">$17,400</p>
+                            <span data-id="1" class="unlike" aria-label="Like button"></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="details">2017 Toyota Highlander V4</a>
+                        <p class="location">
+                            <span>1944 Scrimba Ln</span> 
+                            <span>Youngstown, OH 44481</span>
+                        </p>
+                        <div class="item-footer">
+                            <p class="price">$17,400</p>
+                            <span data-id="2" class="unlike" aria-label="Like button"></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="details">2017 Toyota Highlander V4</a>
+                        <p class="location">
+                            <span>1944 Scrimba Ln</span> 
+                            <span>Youngstown, OH 44481</span>
+                        </p>
+                        <div class="item-footer">
+                            <p class="price">$17,400</p>
+                            <span data-id="3" class="unlike" aria-label="Like button"></span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
