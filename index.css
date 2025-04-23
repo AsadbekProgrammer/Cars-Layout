@@ -38,17 +38,11 @@ header {
 
 .search {
     border-radius:36px;
+    background: url(assets/search.svg) no-repeat scroll 99% 7px;
+    background-color: #fff;
     padding: 0.5em 2.5em 0.5em 1em;
     border:none;
     max-width:15em;
-}
-
-.search-icon {
-    position: absolute;
-    top: 50%;
-    right: 0.8em; 
-    transform: translateY(-50%); 
-    pointer-events: none;
 }
 
 .menu {
