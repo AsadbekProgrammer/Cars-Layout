@@ -46,7 +46,7 @@ header {
 .search-icon {
     position: absolute;
     top: 50%;
-    right: 0.7em; 
+    right: 0.8em; 
     transform: translateY(-50%); 
     pointer-events: none;
 }
