@@ -39,7 +39,7 @@ header {
 
 .search {
     border-radius:36px;
-    background: url(assets/search.svg) no-repeat scroll 99% 5px;
+    background: url(assets/search.svg) no-repeat right .8em center;
     background-color: #fff;
     padding: 0.5em 2.5em 0.5em 1em;
     border:none;
